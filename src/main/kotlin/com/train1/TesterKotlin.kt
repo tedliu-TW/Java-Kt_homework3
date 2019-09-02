@@ -23,7 +23,7 @@ fun main() {
 }
 class Ticket1(var number1: String, var number2:Int){
     fun print(){
-        println((number1.toInt()-number2)*1000+((number2*2000)*0.9))
+        println((number1.toInt()-number2)*1000+((number2*2000)*0.9).toInt())
     }
 }
 
